@@ -1,0 +1,16 @@
+{
+  "name": "minio-script",
+  "version": "1.0.0",
+  "description": "Script para hacer copia de seguridad de los archivos guardados en Minio",
+  "main": "index.js",
+  "scripts": {
+    "downloadObjects": "node Scripts/DownloadObjects.js",
+    "copyObjects": "node Scripts/CopyObjects.js",
+    "removeBucketObjects": "node Scripts/RemoveBucketObjects.js"
+  },
+  "author": "Félix Redondo",
+  "license": "ISC",
+  "dependencies": {
+    "minio": "^7.0.18"
+  }
+}
