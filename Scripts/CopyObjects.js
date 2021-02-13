@@ -16,4 +16,3 @@ const bucketPro = 'BUCKETNAME'
     await copyObject(minio, bucketDev, path, bucketPro, path)
   }
 })()
-
